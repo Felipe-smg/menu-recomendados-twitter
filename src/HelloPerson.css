@@ -1,0 +1,27 @@
+.container{
+    border: 1px solid silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-color: rgb(255, 3, 238);
+    
+}
+
+.desc{
+    width: fit-content;
+    font-weight: normal;
+}
+
+.info{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.img{
+   
+    border-radius: 30%;
+}
+.img:hover{
+ transform: scale(2.0);
+}
